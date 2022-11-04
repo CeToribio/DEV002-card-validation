@@ -29,22 +29,32 @@ const numero = document.getElementById("CreditCard");
 const spanPalabra = document.getElementById("Palabra");
 
 botonValidar.addEventListener("click", function(){
-   let numberCard = parseInt(numero.value);
+   
 
-   let myFunc = num => Number(num);
-  
-   var intArr = Array.from(String(numberCard), myFunc)
-
-   if (validator.isValid(intArr) == true){
+   if (validator.isValid(numero.value) == true){
     spanPalabra.innerHTML = "VÁLIDA, puedes continuar con tu pago"
     const numeroEnmascarado = validator.maskify(numero.value);
     numero.value = numeroEnmascarado;
    } else {
     spanPalabra.innerHTML = "INVÁLIDA, revise sus datos"
    }
-   validator.maskify(intArr);
+   validator.maskify(numero.value);
    
-   console.log(validator.maskify(intArr));
+//    let numberCard = parseInt(numero.value);
+
+//    let myFunc = num => Number(num);
+  
+//    var intArr = Array.from(String(numberCard), myFunc);
+
+//    if (validator.isValid(intArr) == true){
+//     spanPalabra.innerHTML = "VÁLIDA, puedes continuar con tu pago"
+//     const numeroEnmascarado = validator.maskify(numero.value);
+//     numero.value = numeroEnmascarado;
+//    } else {
+//     spanPalabra.innerHTML = "INVÁLIDA, revise sus datos"
+//    }
+//    validator.maskify(intArr);
+   
 
 })
 
@@ -54,5 +64,3 @@ botonLimpiar.addEventListener("click", limpiar);
 function limpiar (){
     location.reload();
 }
-
-// botonValidar.addEventListener("click", validator.maskify);
