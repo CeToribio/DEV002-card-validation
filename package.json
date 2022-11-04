@@ -25,6 +25,20 @@
   },
   "engines": {
     "node": ">=14.x"
-  }
+  },
+  "description": "* Este Web App validará el número de las tarjetas antes de realizar un pago por línea, de una tienda de ropa.",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeToribio/DEV002-card-validation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/CeToribio/DEV002-card-validation/issues"
+  },
+  "homepage": "https://github.com/CeToribio/DEV002-card-validation#readme"
 }
-

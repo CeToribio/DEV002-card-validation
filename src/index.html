@@ -2,12 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validación de tarjeta</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
+  <body>  
+    <div id="titulo" class="titulo">
+      <h1>VALIDACIÓN DE TARJETA</h1> 
+    </div>  
+    <main>
+        <h2>Hola,</h2> 
+        <h3> Antes de continuar con el pago, validaremos el número de su tarjeta. Por favor, siga las instrucciones. </h3>
+        <img class="tarjeta"src="tarjeta.png" alt="Tarjeta de crédito">
+        <form id="formulario">
+          <section id="marca" class="marca"> 
+           <h3>Seleccione la marca de su tarjeta</h3>
+           <label for="VISA">
+              <input type="radio" id="VISA" name="marca" required>VISA
+           </label>
+           <label for="MasterCard">
+            <input type="radio" id="MasterCard" name="marca" required>Mastercard
+           </label>
+          </section>
+          <section class="numero"> 
+           <h3>Introduzca el número de su tarjeta (sin espacios)</h3>
+           <input type="text" id="CreditCard" name="numero" pattern="[0-9]{16}" placeholder="Ingrese el número" maxlength="16" size="16" required> 
+          </section>
+         <section> 
+          <button class="validar" id="VALIDAR">VALIDAR</button>
+          <p>Tu tarjeta es <span id="Palabra"></span></p>
+         </section>
+         <section>
+          <input class="limpiar" type="reset" id="LIMPIAR" value="LIMPIAR">
+         </section>
+       </form> 
+       <img class="logo" src="logooso.jpg" alt="Logo">
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
