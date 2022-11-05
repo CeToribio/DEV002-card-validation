@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 70%;
+    text-align: center;
+    background-color: #201F1F;
+}
+
+.titulo{
+    color: white;
+    font-size: 11px;
+    font-family: sans-serif;
+    padding: auto;
+    /* background-color: #da426c; */
+    background-color: #759eff;
+    border-radius: 10px;
+    width: 60%;
+    border: 3px #759eff outset;
+    padding: 10px; 
+    margin: 10px auto;   
+}
+
+main{
+    background-color: white;
+    /* background-color: #14237f; */
+    color: black;
+    border-radius: 10px;
+    width: 60%;
+    border: 3px white outset;
+    font-size: 17px; 
+    padding: 20px;
+    margin: 0 auto;
+    line-height: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+h2{
+    font-size: 17px;
+}
+
+h3{
+    font-size: 15px;
+}
+
+.tarjeta{
+    width: 40%;
+}
+
+.marca{
+    color:black;
+    font-size: 15px;
+}
+
+.marca:hover{
+    color: #ffa43a;
+}
+
+.numero{
+    color:black;
+    font-size: 15px;
+}
+
+.numero:hover{
+    color: #ffa43a;
+}
+
+.validar{
+    background-color: #ffa43a;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.validar:hover{
+    color: white;
+}
+
+.limpiar{
+    background-color: #ffa43a;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    width: 100px;
+}
+
+.limpiar:hover{
+    color: white;
+}
+
+.logo{
+    width: 50%, center;
+    height: 20% auto;
+
+}
