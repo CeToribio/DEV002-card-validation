@@ -1,37 +1,37 @@
 # **PROYECTO VALIDACIÓN TARJETA**
- * Este Web App validará el número de las tarjetas antes de realizar un pago por línea, de una tienda de ropa.
+ * Este Web App validará el número de la tarjeta, antes de realizar un pago por línea, de una tienda de ropa.
 
-![Prototipo de alta de fidelidad](Prototipo.%20PNG)
+![Bosquejo en lápiz y papel](bosquejo.jpeg "Mi primer bosquejo")
 
 ## UX
   * Los usuarios finales serían los clientes de la marca de ropa.
   * El objetivo es validar el número de la tarjeta antes de realizar la compra, a fin de favorecer tanto a los clientes o usuaros finales como al dueño del emprendimiento, para evitar el rechazo de la tarjeta o posibles fraudes.
   
-![Bosquejo en lápiz y papel](bosquejo.jpeg "Mi primer bosquejo")
+![Prototipo de alta de fidelidad](Prototipo.%20PNG)
 
-  * El feedback recibido por mis compañeras de este primer bosquejo fue que, se ve amigable y fácil de usar, entendible y como opción podría agregar un mensaje que la página es confiable. 
+## UI
+  * El feedback recibido por mis compañeras de este primer bosquejo fue; se ve amigable y fácil de usar, entendible y como opción podría agregar un mensaje que la página es confiable. 
+  * Puse 4 inputs para ingresar los números en grupos de 4 (tarjetas de 16 dígitos)
   * Procure ordenar y utilizar algunos colores para diferenciar los botones de los imputs donde tienen que llenar los números. No agregue el mensaje que la página es confiable ya que no se me ocurre donde puede ir.
-  * En el prototipo final solo puse dos marcas de tarjetas ya que son las más utilizadas a nivel nacional.
+  * En el prototipo final solo puse dos marcas de tarjetas ya que son las más utilizadas a nivel nacional(Perú).
 
-## DÍA 1
-* HTML, realización de la maquetación
-* búsqueda de información sobre HTML
-* Pedi Office hours, ya que no me sentía segura con los primeros pasos que seguia en HTML, recibi el feedback donde me señalaron que había algunos atributos mal usados en mi código y tenía confunción con algunos conceptos.
-## DÍA 2
-* Me encuentro bloqueada y sin entender los concetos de los atributos de los contenedores
-## DÍA 3
-* Búsqueda de infomación y clarificación de conceptos HTML y CSS.
-* Logre realizar la maquetación HTML con su funcionalidad, comence a darle estilo a la página.
-## DÍA 4
-* Aplicación del CSS y finalización.
-* Estuve iterando y completando algunas etiquetas que puse en HTML y CSS, a medida que investigaba y veía más etiquetas y funciones las gregue a lo que realice en un principio. (de 4 casillas para los # lo cambie a solo una, cambie los colores y en algunas etiquetas de html agregue o cambie un id por class para un mejor uso en Css)
-## DÍA 5
-* Investigación sobre JS y el código Luhn.
-* identifcación del problema a resolver en JS: Automatizar una validación de tarjeta de crédito con el código Luhn (fórmula de suma de verificación)
-  * Investigación de RegEx e implementación en código.
-    
+## DESARROLLO
+
+* Los primeros pasos que hice fue maquetar el prototipo en HTML. Búsque la información necesaria para tener los inputs necesarios y texto. Agregue algunas etiquetas que conocí en el proceso de investigación.
+* En la realización del CSS no me tome mucho tiempo y solo aplique algunas propiedas generales. 
+* Estuve cambiando algunas cosas como la ubicación del botón limpiar y los colores destinados.
 
 
+![Interfaz](interfazAzul.PNG)
+
+
+* Al comenzar JS, me tome más tiempo para entender algunos términos y también para comprender la lógica de la programación. 
+  * identifcación del problema a resolver en JS: Automatizar una validación de tarjeta de crédito con el código Luhn (fórmula de suma de verificación)
+  * Hice el cambio del imput donde ingresarían el número de tarjeta, ya que se me haría complicado trabajar con 4 diferentes imputs.
+  * Antes de finalizar decidí cambiar el diseño de la interfaz, cambiando los colores para que se pueda ver mejor.s
+   
+
+![Interfaz Final](InterfazFinal.PNG)
 
 
   
